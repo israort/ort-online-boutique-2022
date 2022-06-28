@@ -10,7 +10,8 @@ Se presenta una solución para modernizar y desplegar la arquitectura de "e-shop
 ![Diagrama Arquitectura](Arquitectura.jpg)
 
 ### Online Boutique está compuesto por 11 microservicios:
-![](Microservicios.JPG)
+
+(Microservicios.JPG)
 
 ### Instrucciones de uso:
 
@@ -53,6 +54,22 @@ Luego el script continua realizando los 12 deployments ejecutando cada uno de lo
 > 025891832913.dkr.ecr.us-east-1.amazonaws.com/boutique-online-recommendationservice-isra
 
 > 025891832913.dkr.ecr.us-east-1.amazonaws.com/boutique-online-shippingservice-isra
+
+Para depositar las imágenes a utilizar, se eligió el servicio ECR (Elastic Container Registry), el cual entregó la siguiente url: 
+
+> 025891832913.dkr.ecr.us-east-1.amazonaws.com
+
+Conexión al ECR:
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 025891832913.dkr.ecr.us-east-1.amazonaws.com
+
+Para la creación de imágenes, se fue al repositorio descargado de git entregado por los profesores, a cada una de las carpetas de los microservicios, y se utilizó el siguiente comando:
+
+> docker build -t 025891832913.dkr.ecr.us-east-1.amazonaws.com/boutique-online-[microservicio]-isra:latest .
+
+y luego se subieron al repositorio ECR:
+
+> docker push 025891832913.dkr.ecr.us-east-1.amazonaws.com/boutique-online-[microservicio]-isra
+
 
 ### script bash:
 
