@@ -28,4 +28,4 @@ Luego el script continua realizando los 12 deployments ejecutando cada uno de lo
 
 Se presenta una solucioón para modernizar y desplegar la arquitectura de "e-shop Services" a traves de un cluster EKS montado en Amazon Web Services. Se elije la siguiente arquitectura:
 
-![Diagrama Arquitectura](https://ibb.co/9n2GrMK)
+![Diagrama Arquitectura](Arquitectura.jpg)
