@@ -20,15 +20,37 @@ Los siguientes archivos deben estar en el mismo repositorio:
 
 El script de bash contiene la invocación al archivo eks-cluster.tf, quien crea toda la infraestructura necesaria para montar un cluster EKS, esto es:
 
--VPC
--Subnets
--Security Groups
--Internet Gateway
--Defaul Route Table
--Cluster EKS
--EKS Node Group
+- VPC
+- Subnets
+- Security Groups
+- Internet Gateway
+- Default Route Table
+- Cluster EKS
+- EKS Node Group
 
-Luego el script continua realizando los 12 deployments ejecutando cada uno de los archivos yaml.
+Luego el script continua realizando los 12 deployments ejecutando cada uno de los archivos yaml, en base a las siguientes imagenes de docker:
+
+> 025891832913.dkr.ecr.us-east-1.amazonaws.com/boutique-online-adservice-isra
+
+> 025891832913.dkr.ecr.us-east-1.amazonaws.com/boutique-online-cartservice-isra
+
+> 025891832913.dkr.ecr.us-east-1.amazonaws.com/boutique-online-checkoutservices-isra
+
+> 025891832913.dkr.ecr.us-east-1.amazonaws.com/boutique-online-currencyservice-isra
+
+> 025891832913.dkr.ecr.us-east-1.amazonaws.com/boutique-online-emailservice-isra
+
+> 025891832913.dkr.ecr.us-east-1.amazonaws.com/boutique-online-frontend-isra
+
+> 025891832913.dkr.ecr.us-east-1.amazonaws.com/boutique-online-loadgenerator-isra
+
+> 025891832913.dkr.ecr.us-east-1.amazonaws.com/boutique-online-paymentservice-isra
+
+> 025891832913.dkr.ecr.us-east-1.amazonaws.com/boutique-online-productcatalogservice-isra
+
+> 025891832913.dkr.ecr.us-east-1.amazonaws.com/boutique-online-recommendationservice-isra
+
+> 025891832913.dkr.ecr.us-east-1.amazonaws.com/boutique-online-shippingservice-isra
 
 ### script bash:
 
