@@ -227,3 +227,11 @@ resource "aws_eks_node_group" "boutique-node-group" {
 CIDR: 172.17.2.0/24
 - boutique-public-subnet
 CIDR: 172.17.1.0/24
+
+## IGW
+- VPC ID: vpc-03766f1fb14ad94e5 | boutique-vpc
+
+## SG
+- boutique-sg-http
+- TCP	80
+- TCP	443
