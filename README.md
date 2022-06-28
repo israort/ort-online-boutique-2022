@@ -60,7 +60,8 @@ Para depositar las imágenes a utilizar, se eligió el servicio ECR (Elastic Con
 > 025891832913.dkr.ecr.us-east-1.amazonaws.com
 
 Conexión al ECR:
-aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 025891832913.dkr.ecr.us-east-1.amazonaws.com
+
+> aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 025891832913.dkr.ecr.us-east-1.amazonaws.com
 
 Para la creación de imágenes, se fue al repositorio descargado de git entregado por los profesores, a cada una de las carpetas de los microservicios, y se utilizó el siguiente comando:
 
