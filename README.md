@@ -178,7 +178,7 @@ resource "aws_eks_node_group" "boutique-node-group" {
 
   scaling_config {
     desired_size = 2
-    max_size     = 2
+    max_size     = 8
     min_size     = 2
   }
 }
