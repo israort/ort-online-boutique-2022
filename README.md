@@ -256,4 +256,6 @@ CIDR: 172.17.1.0/24
 - TCP	80
 - TCP	443
 
+# Resultado final
+![](online-boutique-final.gif)
 
