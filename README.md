@@ -220,4 +220,10 @@ resource "aws_eks_node_group" "boutique-node-group" {
 
 ## VPC:
 - boutique-vpc
-- 
+- CIDR: 172.17.0.0/16
+
+## Subnets
+- boutique-private-subnet
+CIDR: 172.17.2.0/24
+- boutique-public-subnet
+CIDR: 172.17.1.0/24
