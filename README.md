@@ -1,6 +1,9 @@
-# ort-online-boutique-2022
+# Obligatorio 2022 - Implementacion de Soluciones Cloud
+## Micaela Plada - 211319
+## Diego Zignago - 204523
+## Israel Bellizzi - 144606
 
-Instrucciones de uso:
+### Instrucciones de uso:
 
 Los siguientes archivos deben estar en el mismo repositorio:
 
@@ -19,3 +22,10 @@ El script de bash contiene la invocación al archivo eks-cluster.tf, quien crea 
 -EKS Node Group
 
 Luego el script continua realizando los 12 deployments ejecutando cada uno de los archivos yaml.
+
+
+### Presentacion ejecutiva:
+
+Se presenta una solucioón para modernizar y desplegar la arquitectura de "e-shop Services" a traves de un cluster EKS montado en Amazon Web Services. Se elije la siguiente arquitectura:
+
+![Diagrama Arquitectura](https://ibb.co/9n2GrMK)
