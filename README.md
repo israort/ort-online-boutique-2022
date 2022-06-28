@@ -210,3 +210,14 @@ resource "aws_eks_node_group" "boutique-node-group" {
 - Default Route Table
 - Cluster EKS
 - EKS Node Group
+
+# Datos de Infraestructura
+
+## Tipo de Instancia:
+- t2.medium
+- Linux/UNIX
+- ami-0d5cbb67678bc879c
+
+## VPC:
+- boutique-vpc
+- 
