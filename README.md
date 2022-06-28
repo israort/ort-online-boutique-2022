@@ -3,7 +3,7 @@
 ## Diego Zignago - 204523
 ## Israel Bellizzi - 144606
 
-### Presentacion ejecutiva:
+### Presentación ejecutiva:
 
 Se presenta una solución para modernizar y desplegar la arquitectura de "e-shop Services" a traves de un cluster EKS montado en Amazon Web Services. Se elije la siguiente arquitectura:
 
