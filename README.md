@@ -183,3 +183,30 @@ resource "aws_eks_node_group" "boutique-node-group" {
   }
 }
 ```
+
+# Detalles Técnicos
+
+## Versión de Terraform:
+- v1.2.3
+
+## Versión de Kubectl:
+- Client Version: version.Info{Major:"1", Minor:"21", GitVersion:"v1.21.13", GitCommit:"80ec6572b15ee0ed2e6efa97a4dcd30f57e68224", GitTreeState:"clean", BuildDate:"2022-05-24T12:40:44Z", GoVersion:"go1.16.15", Compiler:"gc", Platform:"linux/amd64"}
+- Server Version: version.Info{Major:"1", Minor:"22+", GitVersion:"v1.22.9-eks-a64ea69", GitCommit:"540410f9a2e24b7a2a870ebfacb3212744b5f878", GitTreeState:"clean", BuildDate:"2022-05-12T19:15:31Z", GoVersion:"go1.16.15", Compiler:"gc", Platform:"linux/amd64"}
+
+## Versión de Docker: 
+- Client: Docker Engine - Community
+- Cloud integration: v1.0.25
+- Version:           20.10.16
+
+- Server: Docker Desktop
+- Engine:
+- Version:          20.10.16
+
+## Servicios AWS:
+- VPC
+- Subnets
+- Security Groups
+- Internet Gateway
+- Default Route Table
+- Cluster EKS
+- EKS Node Group
