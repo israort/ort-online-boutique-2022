@@ -9,9 +9,9 @@ Se presenta una solución para modernizar y desplegar la arquitectura de "e-shop
 
 ![Diagrama Arquitectura](Arquitectura.jpg)
 
-### Online Boutique está compuesto por 11 microservicios:
+**Online Boutique** está compuesto por 11 microservicios:
 
-(Microservicios.JPG)
+![](Microservicios.JPG)
 
 ### Instrucciones de uso:
 
